@@ -65,9 +65,6 @@ conv.i = (1 << 29) + (conv.i >> 1) - (1 << 22);
 ```bash
 # x86/x64 with SSE
 g++ -std=c++11 -O3 -march=native -msse -msse2 sqrt.cpp -o sqrt
-
-# ARM (Apple Silicon)
-g++ -std=c++14 -O3 sqrt_portable.cpp -o sqrt
 ```
 
 ## Results You Can Verify
