@@ -256,7 +256,7 @@ void comprehensive_test() {
     std::cout << "   ✓ Only 2 Newton iterations vs 5-7\n";
     std::cout << "   ✓ " << (float)time_std/time_optimal << "x faster with near-perfect accuracy\n\n";
     
-    std::cout << "WHY THIS MATTERS FOR HEADLANDS:\n";
+    std::cout << "WHY THIS MATTERS FOR HFT's:\n";
     std::cout << "  • HFT needs predictable, low-latency operations\n";
     std::cout << "  • SSE instructions pipeline well (critical for throughput)\n";
     std::cout << "  • Understanding IEEE 754 bit patterns shows deep systems knowledge\n";
